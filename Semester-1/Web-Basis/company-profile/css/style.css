@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.banner {
+    background: url(bg.png) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+.about {
+    padding-top: 80px;
+}
+
+.about .container {
+    padding: 50px 50px;
+    border: 5px solid transparent;
+    background: linear-gradient(#a3bded, #6991c7);
+    border-image: linear-gradient(to bottom, #93a5cf, #e4efe9);
+    border-image-slice: 1;
+}
+.about .container .social-icon a {
+    padding: 30px;
+    padding-bottom: 50px;
+    padding-top: 45px;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+.about .container .social-icon a:hover {
+    background-color: #1ef502;
+}
+
+
+.product .container {
+    margin-top: 110px !important;
+}
+.product h2 {
+    padding-top: 50px;
+}
+.card {
+    border: none;
+    outline: none;
+    background-color: #a3bded;
+    border-radius: .3s;
+}
+.card:hover{
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+.info {
+    line-height: 17px;
+}
+.star {
+    color: #fbc02d !important;
+}
+.cost span{
+    color: #fb3531;
+    font-weight: bold;
+    font-size: 20px;
+}
+.shoe{
+    background: #dc3545;
+}
+.shoe:hover{
+    opacity: .8;
+}
+.shoe a {
+    text-decoration: none;
+    color: #000;
+}
+.cursor {
+    cursor: pointer;
+}
+
+
+.address {
+    padding-top: 80px;
+}
+
+.address .container {
+    padding: 50px 50px;
+    border: 5px solid transparent;
+    background: linear-gradient(#a3bded, #6991c7);
+    border-image: linear-gradient(to bottom, #93a5cf, #e4efe9);
+    border-image-slice: 1;
+}
+.address .container .box {
+    padding: 10px;
+    display: inline-block;
+}
+.address .container h1 {
+    float: right;
+    padding-right: 250px;
+    padding-top: 200px;
+}
+
+
+
+.contact .container {
+    padding: 170px 0;
+}
+
+.contact form {
+    background-color: black;
+    padding: 30px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
